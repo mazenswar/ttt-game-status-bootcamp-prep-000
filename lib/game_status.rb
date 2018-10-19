@@ -59,6 +59,6 @@ def winner(board)
       "O"
     end
   else
-    false
+    nil
   end
 end
