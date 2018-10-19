@@ -57,4 +57,8 @@ def winner(board)
       "X"
     elsif i == "O"
       "O"
+    end
+  else
+    false
+  end
 end
