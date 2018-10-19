@@ -58,4 +58,5 @@ def winner(board)
       "O"
     end
   end
+  false
 end
