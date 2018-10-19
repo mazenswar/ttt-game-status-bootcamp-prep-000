@@ -53,9 +53,9 @@ def winner(board)
   if won?(board)
     arr = won?(board)
     i = arr[0]
-    if i == "X"
+    if board[i] == "X"
       "X"
-    elsif i == "O"
+    elsif board[i] == "O"
       "O"
     end
   else
