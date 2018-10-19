@@ -27,9 +27,9 @@ def won?(board)
    pos3 = board[i3]
    
    if pos1 == "X" && pos2 == "X" && pos3 == "X"
-     comb
+     return comb
    else 
-      false
+      return false
    end
  end
 end
