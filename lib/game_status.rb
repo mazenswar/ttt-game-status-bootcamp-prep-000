@@ -51,7 +51,7 @@ end
 
 def winner(board)
   winner = won?(board)
-  if winner.include == "X"
+  if winner.include?("X")
     return "X"
   else
     return "O"
