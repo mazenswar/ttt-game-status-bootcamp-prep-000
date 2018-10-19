@@ -54,7 +54,7 @@ def winner(board)
   arr.each do |i|
     elsif board[i] == "X"
       "X"
-    elsif board[pos] == "O"
+    elsif board[i] == "O"
       "O"
   
   end
