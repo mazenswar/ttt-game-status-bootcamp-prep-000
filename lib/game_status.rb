@@ -22,7 +22,7 @@ def won?(board)
    pos2 = comb[1]
    pos3 = comb[2]
    
-   if pos1 == "X" && pos2 == "X" && pos3 == "X"
+   if pos1 == "x" && pos2 == "x" && pos3 == "x"
     return comb
    else 
      return false
