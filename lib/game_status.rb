@@ -50,5 +50,9 @@ def over?(board)
 end
 
 def winner(board)
-  
+  winner = won?(board)
+  winner.all? do |i|
+    if board[i] == "X"
+      "X"
+    elsif board[i] == "O"
 end
