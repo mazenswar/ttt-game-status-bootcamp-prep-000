@@ -41,7 +41,7 @@ def full?(board)
       if i == "X" || i == "O"
         true
       end
-    end
+    #end
   end
   false
 end
