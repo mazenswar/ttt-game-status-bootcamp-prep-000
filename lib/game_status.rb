@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [0, 4, 8]  #diagonal left to right
   ]
   
-def won(board)
+def won?(board)
  WIN_COMBINATIONS.each do |comb|
    if comb[0] == "X" && comb[1] == "X" && comb[2] == "X"
     return comb
