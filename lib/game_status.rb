@@ -37,7 +37,6 @@ end
 
 def full?(board)
   board.all? do |arr|
-    
-      arr[i] == "X" || arr[i] == "O"
+      arr == "X" || arr == "O"
   end
 end
