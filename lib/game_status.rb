@@ -52,7 +52,7 @@ end
 def winner(board)
   arr = won?(board)
   pos = arr[0]
-  if board[winner].include?("X")
+  if board[pos] == "X"
     "X"
   else
     "O"
