@@ -57,5 +57,4 @@ def winner(board)
   elsif board[pos] == "O"
     "O"
   end
-  false
 end
