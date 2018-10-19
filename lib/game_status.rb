@@ -51,13 +51,13 @@ end
 
 def winner(board)
   arr = won?(board)
-  pos = arr[0]
-  if over?(board) && !won?(board)
-    false
-  elsif board[pos] == "X"
-    "X"
-  elsif board[pos] == "O"
-    "O"
+  arr.each do |i|
+    if over?(board) && !won?(board)
+      false
+    elsif board[pos] == "X"
+      "X"
+    elsif board[pos] == "O"
+      "O"
   
   end
 end
