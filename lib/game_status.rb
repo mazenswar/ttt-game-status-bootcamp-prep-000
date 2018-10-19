@@ -54,7 +54,9 @@ def winner(board)
   pos = arr[0]
   if board[pos] == "X"
     "X"
-  else
+  elsif board[pos] == "O"
     "O"
+  else
+    nil
   end
 end
