@@ -50,7 +50,8 @@ def over?(board)
 end
 
 def winner(board)
-  winner = won?(board)
+  arr = won?(board)
+  pos = arr[0]
   if board[winner].include?("X")
     "X"
   else
