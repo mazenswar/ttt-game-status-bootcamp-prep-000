@@ -56,4 +56,5 @@ def winner(board)
       "X"
     elsif board[i] == "O"
       "O"
+    end 
 end
