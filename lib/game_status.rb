@@ -50,5 +50,11 @@ def over?(board)
 end
 
 def winner(board)
-  
+  if won?(board)
+    arr = won?(board)
+    i = arr[0]
+    if i == "X"
+      "X"
+    elsif i == "O"
+      "O"
 end
