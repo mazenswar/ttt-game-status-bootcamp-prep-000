@@ -36,8 +36,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |arr|
-    arr.all? do |i|
+  board.each do |arr|
+    arr.each do |i|
       if i == "X" || i == "O"
         true
       end
