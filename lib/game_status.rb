@@ -21,4 +21,5 @@ def won(board)
    if comb[0] == "X" && comb[1] == "X" && comb[2] == "X"
     return comb
    end
+  end
 end
