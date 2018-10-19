@@ -57,6 +57,6 @@ def winner(board)
   elsif board[pos] == "O"
     "O"
   elsif over?(board) && !won(board)
-    nil
+    return false
   end
 end
