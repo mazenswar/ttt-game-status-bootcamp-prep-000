@@ -40,3 +40,4 @@ def full?(board)
       arr == "X" || arr == "O"
   end
 end
+
