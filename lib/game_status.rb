@@ -50,12 +50,12 @@ def over?(board)
 end
 
 def winner(board)
-  won(board)?
   arr = won?(board)
   pos = arr[0]
   if board[pos] == "X"
     "X"
   elsif board[pos] == "O"
     "O"
+  elsif over?(board) && !won(board)
   end
 end
