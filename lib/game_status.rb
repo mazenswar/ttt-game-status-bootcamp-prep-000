@@ -31,6 +31,6 @@ def won?(board)
    elsif pos1 == "O" && pos2 == "O" && pos3 == "O"
      return comb
    end
-   false
  end
+ false
 end
