@@ -52,10 +52,10 @@ end
 def winner(board)
   arr = won?(board)
   arr.each do |i|
-    elsif board[i] == "X"
+    if board[i] == "X"
       "X"
     elsif board[i] == "O"
       "O"
-  
+    end
   end
 end
