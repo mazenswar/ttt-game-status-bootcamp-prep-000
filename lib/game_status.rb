@@ -38,7 +38,7 @@ end
 def full?(board)
   board.each do |arr|
     arr.each do |i|
-      if i == "X" || i == "O"
+      if arr[i] == "X" || arr[i] == "O"
         true
       else 
         false
