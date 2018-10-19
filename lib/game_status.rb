@@ -18,7 +18,11 @@ WIN_COMBINATIONS = [
   
 def won?(board)
  WIN_COMBINATIONS.each do |comb|
-   if comb[0] == "X" && comb[1] == "X" && comb[2] == "X"
+   pos1 = comb[0]
+   pos2 = comb[1]
+   pos3 = comb[2]
+   
+   if pos1 == "X" && pos2 == "X" && pos3 == "X"
     return comb
    else 
      return nil
