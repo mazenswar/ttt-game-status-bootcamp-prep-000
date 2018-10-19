@@ -40,8 +40,9 @@ def full?(board)
     arr.all? |i|
       if i == "X" || i == "O"
         true
+      else 
+        false
       end
     end
   end
-  false
 end
