@@ -52,10 +52,10 @@ end
 def winner(board)
   if won?(board)
     winner = won?(board)
-    winner.all? do |i|
-      if board[i] == "X"
+    
+      if board[winner] == "X"
         "X"
-      elsif board[i] == "O"
+      elsif board[winner] == "O"
         "O"
       end
     end
