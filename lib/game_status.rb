@@ -50,12 +50,5 @@ def over?(board)
 end
 
 def winner(board)
-  arr = won?(board)
-  arr.each do |i|
-    if board[i] == "X"
-      "X"
-    elsif board[i] == "O"
-      "O"
-    end
-  end
+ 
 end
